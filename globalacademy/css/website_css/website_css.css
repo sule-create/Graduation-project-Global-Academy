@@ -1,0 +1,256 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Header css */
+/* ================= */
+.navbarstyle {
+    box-shadow: 0 2px 5px 0 #D3D3D3;
+    background-color: white;
+}
+
+.material-icons-Sharp {
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #008080;
+    font-weight: 520;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #008080;
+    font-weight: 520;
+}
+
+.navbar-dropdown-item {
+    font-size: 14px;
+}
+
+.navbar-brandimg {
+    width: 205px;
+    padding: 0.4%;
+    margin-left: 6%;
+}
+
+.navbar-nav-style {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 767px) {
+    .navbarstyle {
+        box-shadow: none;
+        background-color: white;
+        width: 100%;
+    }
+
+    .navbar-brandimg {
+        width: 30%;
+        margin-left: 0%;
+    }
+
+    .navbar-nav-style {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:912px) {
+    .navbarstyle {
+        box-shadow: none;
+        background-color: white;
+        width: 100%;
+    }
+
+    .navbar-brandimg {
+        width: 30%;
+        margin-left: 0%;
+    }
+
+    .navbar-nav-style {
+        margin-left: 0%;
+    }
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #008080;
+    border-radius: 10px 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #008080;
+}
+/* ============== */
+/* Header css end */
+
+
+
+
+
+
+/* Footer Styling Start*/
+/* =================== */
+.footer-cnt {
+    width: 85%;
+}
+
+.footer-brandimg {
+    width: 205px;
+}
+
+.footer-headers div h6 {
+    color: #008080;
+    font-size: 18px;
+}
+
+.footer-headers div a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-brandimg {
+        width: 70%;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:912px) {
+    .footer-brandimg {
+        width: 70%;
+        margin-left: 0%;
+    }
+}
+
+.footer-link a {
+    font-size: 13px;
+    color: #524f4e;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    font-weight: 520;
+    color: #008080;
+}
+
+/* ================= */
+/* Footer Styling End*/
+
+
+
+
+/* web front page css */
+/* ================== */
+.dotted-img {
+    width: 120px;
+    margin-top: 10%;
+    margin-left: -11%;
+}
+
+.dotted-imgsec {
+    width: 120px;
+    margin-top: 2%;
+    margin-left: 47%;
+}
+
+.aftwriteup {
+    margin-left: 8%;
+    margin-top: 6%;
+    font-size: 17px;
+    color: #3A3A3A;
+}
+
+.appbtn {
+    border: 2px solid #008080;
+    width: 180px;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: 550;
+    margin-top:5px;
+}
+
+.startbtn {
+    background-color: #008080;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 16px;
+    margin-top:5px;
+    width: 180px;
+}
+
+.startbtn:hover {
+    color: white;
+}
+
+.btndiv {
+    margin-left: 8%;
+    margin-top: 9%;
+    font-size: 17px;
+}
+
+.home .home-text h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 8%;
+}
+
+.home .home-text p {
+    overflow: hidden;
+}
+
+.home .home-text p span {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 8%;
+    display: inline-block;
+    display: none;
+}
+
+.home .home-text p span.text-in {
+    display: block;
+    animation: textIn .5s ease;
+}
+
+.home .home-text p span.text-out {
+    animation: textOut .5s ease;
+}
+
+@keyframes textIn {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes textOut {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+
+    }
+}

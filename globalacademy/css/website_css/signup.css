@@ -1,0 +1,161 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+        
+.chi-testimonial-container {
+    border-radius: 15px;
+    left: 6%;
+    margin: 40px;
+    background-color: #006262;
+    padding: 20px 30px;
+    color: white;
+}
+
+.fa-quote {
+color: rgba(255, 255, 255, 0.3);
+font-size: 20px;
+position: absolute;
+top: 30px;
+}
+
+.fa-quote-left {
+left: 25px;
+}
+
+.fa-quote-right {
+right: 25px;
+}
+
+.renxtestimonial {
+font-size: 13px;
+font-weight: 300;
+}
+
+.chi-user {
+display: flex;
+align-items: center;
+justify-content: left;
+}
+
+.chi-user .renz_user-image {
+border-radius: 20%;
+height: 40px;
+width: 40px;
+object-fit: cover;
+}
+
+.chi-user .renz_user-details {
+margin-left: 10px;
+}
+
+.chi-user .lausername {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.chi-user .larole {
+margin-top: -15px;
+font-weight: lighter;
+font-size: 12px;
+
+}
+
+.chi-progress-bar {
+background-color: #add7f6;
+height: 4px;
+width: 100%;
+animation: grow 10s linear infinite;
+transform-origin: left;
+}
+
+@keyframes grow {
+0% {
+    transform: scaleX(0);
+}
+}
+
+@media (max-width: 768px) {
+.chi-testimonial-container {
+    padding: 20px 30px;
+}
+
+.fa-quote {
+    display: none;
+}
+}
+
+.chi_ain{
+font-weight: 700;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+}
+
+@media screen and (max-width: 767px) {
+.chi-formbody {
+    margin: 20px 5px 0 5px !important;
+}
+.chiFormLogo{
+    display: flex !important;
+}				
+
+}
+@media screen and (max-width: 800px) {
+.googletxt{
+    font-size: 12px !important;
+}
+        
+
+}
+@media screen and (max-width: 1200px) and (max-width:912px) {
+.chi-formbody {
+    margin: 20px 10px 0 10px !important;
+}
+.des_txtx{
+    inline-size: 280px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+}
+.chi_ain{
+    inline-size: 320px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.chi_ain{
+    margin: 20px 5px 0 -15px !important;
+    inline-size: 280px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+.chi-formbody {
+    margin: 20px 10px 0 10px !important;
+}
+.chi_ain{
+    margin: 0px 5px 0 10px !important;
+    font-size: 30px !important;
+    inline-size: 320px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+}
+
+
+}
