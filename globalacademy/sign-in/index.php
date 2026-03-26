@@ -32,7 +32,7 @@
                            
                         <div  id="contentlogin" class="" style="box-shadow:0 2px 5px 0 #D3D3D3; 0 3px 11px 0 #D3D3D3;border-radius:10px;margin-top:2%;">
                               
-                          	<img id="logo" class="img-fluid" src="<?php echo $defaultUrl;?>assets/images/website_images/Global.png" style="margin-top:2.5%;width:100px;height:auto;">
+                          	<img id="logo" class="img-fluid" src="../assets/images/website_images/Global.png" style="margin-top:2.5%;width:100px;height:auto;">
 
                             <center>
 								<h4 style="padding-top:40px;color:#008080;" id="verificatitle">Welcome back!</h4>
@@ -44,7 +44,7 @@
                             </div>
                             
                             <div class="centerlogin passwordverify" >
-            					<input type="password"  autocomplete="off" class="generalinput signuppassword" placeholder="1234"  >
+            					<input type="password"  autocomplete="off" class="generalinput signuppassword" placeholder="password"  >
         						<i class="fa fa-eye fa-lg" style="" id="viewpassword"></i>
                             </div>
 

@@ -112,7 +112,9 @@ body {
 }
 
 .footer-brandimg {
-    width: 205px;
+   width: 100px;        /* reduce size */
+    position: absolute;  /* allows positioning */
+    left: 0;  
 }
 
 .footer-headers div h6 {

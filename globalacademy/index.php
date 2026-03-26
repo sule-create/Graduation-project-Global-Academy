@@ -47,7 +47,7 @@ include('controller/config/config.php');
 		<nav class="navbar navbar-expand-lg navbar-light navbarstyle fixed-top">
 			<div class="container-fluid">
 				<a class="navbar-brand navbar-brandimg" href="<?php echo $defaultUrl;?>">
-					<img class="img-fluid" src="<?php echo $defaultUrl;?>assets/images/website_images/Global.png" style="height:60px;width:auto;"/>
+					<img class="img-fluid" src="assets/images/website_images/Global.png" style="height:60px;width:auto;"/>
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -62,10 +62,10 @@ include('controller/config/config.php');
 						</li>
 					</ul>
 					<form class="d-flex">
-						<a href="<?php echo $defaultUrl; ?>sign-in/" class="btn waves-effect waves-light me-4" style="border:1px solid #008080;color:#008080;font-size:13px;">
+						<a href="../sign-in" class="btn waves-effect waves-light me-4" style="border:1px solid #008080;color:#008080;font-size:13px;">
 							Sign In
 						</a>
-						<a href="<?php echo $defaultUrl; ?>signup/" class="btn waves-effect waves-light me-4" style="color:white;font-size:13px;background: #008080;">
+						<a href="signup/" class="btn waves-effect waves-light me-4" style="color:white;font-size:13px;background: #008080;">
 							Sign Up
 						</a>
 					</form>
@@ -113,13 +113,13 @@ include('controller/config/config.php');
 						</p>
 					</div>
 					<div class="btndiv" align="left">
-						<a href="<?php echo $defaultUrl; ?>sign-in/" class="btn waves-effect waves-light appbtn" style="border:1px solid #008080;color:#008080;">
+						<a href="../sign-in" class="btn waves-effect waves-light appbtn" style="border:1px solid #008080;color:#008080;">
 							Sign In
 						</a>
 						&nbsp;&nbsp;
 						<a href="signup/" class="btn startbtn" style="background: #008080;">
 							<span>
-								Register Now &nbsp;&nbsp;&nbsp;<svg width="19" height="16"
+								Sign Up &nbsp;&nbsp;&nbsp;<svg width="19" height="16"
 									viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M17.7145 8.70711C18.105 8.31658 18.105 7.68342 17.7145 7.29289L11.3505 0.928932C10.96 0.538408 10.3268 0.538408 9.93628 0.928932C9.54576 1.31946 9.54576 1.95262 9.93628 2.34315L15.5931 8L9.93628 13.6569C9.54576 14.0474 9.54576 14.6805 9.93628 15.0711C10.3268 15.4616 10.96 15.4616 11.3505 15.0711L17.7145 8.70711ZM0 9H17.0074V7H0V9Z"
@@ -227,7 +227,7 @@ include('controller/config/config.php');
 								<a href="signup/?lang=<?php echo $lang; ?>" class="btn startbtn"
 									style="background: #008080;">
 									<span>
-										Register Now &nbsp;&nbsp;&nbsp;<svg width="19" height="16"
+										Sign Up &nbsp;&nbsp;&nbsp;<svg width="19" height="16"
 											viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path
 												d="M17.7145 8.70711C18.105 8.31658 18.105 7.68342 17.7145 7.29289L11.3505 0.928932C10.96 0.538408 10.3268 0.538408 9.93628 0.928932C9.54576 1.31946 9.54576 1.95262 9.93628 2.34315L15.5931 8L9.93628 13.6569C9.54576 14.0474 9.54576 14.6805 9.93628 15.0711C10.3268 15.4616 10.96 15.4616 11.3505 15.0711L17.7145 8.70711ZM0 9H17.0074V7H0V9Z"
@@ -248,7 +248,7 @@ include('controller/config/config.php');
 						src="assets/images/website_images/dottedimg.png" />
 				</div>
 				<div class="col-6" align="right">
-					<img class="img-fluid" style="width: 70px;margin-buttom:0%;"
+					<img class="img-fluid" style="width: 70px;margin-bottom:0%;"
 						src="assets/images/website_images/dottedimg.png" />
 				</div>
 			</div>
@@ -260,7 +260,7 @@ include('controller/config/config.php');
 		<div class="container-fluid footer-cnt">
 			<div class="row container mb-5 footer-headers">
 				<div class="col-md-12 col-lg-4">
-					<img class="footer-brandimg img-fluid me-10" src="<?php echo $defaultUrl;?>assets/images/website_images/Global.png" />
+					<img class="footer-brandimg img-fluid me-10" src="assets/images/website_images/Global.png" />
 
 				</div>
 

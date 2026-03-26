@@ -9,7 +9,7 @@
 	<meta name="keywords" content="">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!-- SITE TITLE -->
-	<title>Global Academy | Sign In</title>
+	<title>Global Academy | Registration</title>
 	<link rel="shortcut icon" href="../assets/images/website_images/Global.png" type="image/x-icon">
 
 	<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
 				<div style="background-color: #008080; height: 97vh; margin: 10px 0 0 0px; border-radius: 15px;">
 					
 					<div style="padding: 50px 20px 50px; display: flex;">
-						<img src="<?php echo $defaultUrl;?>assets/images/website_images/Global5.png" width="100" height="100" alt="">
+						<img src="../assets/images/website_images/Global5.png" width="100" height="100" alt="">
 					</div>
 				
 					<div class="chi_ain" style="padding: 0px 50px 20px 30px;" >
@@ -59,7 +59,7 @@
 								I appreciated the intuitive interface and easy navigation.
 							</p>
 							<div class="chi-user">
-								<img src="<?php echo $defaultUrl;?>assets/images/website_images/Global5.png" alt="user" class="renz_user-image">
+								<img src="../assets/images/website_images/Global5.png" alt="user" class="renz_user-image">
 								<div class="renz_user-details">
 									<p class="lausername">Mr. John Doe</p>
 									<p class="larole">Student of Global Academy</p>
@@ -76,7 +76,7 @@
 		    	
 				<div style="margin: 40px;">
 					<div class="d-block d-sm-none d-md-none d-xm-none" align="center">
-						<img src="<?php echo $defaultUrl;?>assets/images/website_images/Global.png" width="100" height="100" alt="">
+						<img src="../assets/images/website_images/Global.png" width="100" height="100" alt="">
 					</div>
 					<h2 style="font-weight: 700; color: #555;">Sign up</h2>
 					<p style="color:#92929D;font-size:13px;" id="signin">Have an account? <a href="../sign-in" style="color:#008080;"> Sign In </a>

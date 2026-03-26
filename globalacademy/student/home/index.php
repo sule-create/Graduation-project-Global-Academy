@@ -14,7 +14,7 @@
     <!-- Favicon icon -->
 
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/adminImg/favicon.png">
-    <title>Global Academy | Dashboard</title>
+    <title>Global Academy | <?php echo $firstname; ?> </title>
     <link rel="shortcut icon" href="../../assets/images/website_images/Global.png" type="image/x-icon">
 
     <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
