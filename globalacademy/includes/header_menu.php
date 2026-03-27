@@ -51,7 +51,7 @@
 
             <ul class="sidebar-List">
                 <li class="sidebar-list-item">
-                    <a href="<?php echo $defaultUrl.$user_type;?>/home">
+                    <a href="<?php echo $defaultUrl.'/'.$user_type.'/home'; ?>">
                         <i class='fas fa-tachometer-alt' style="margin-right: 10px;"></i>
                         <span>Dashboard</span>
                     </a>

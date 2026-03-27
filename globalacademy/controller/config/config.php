@@ -17,5 +17,5 @@
 	$defaultUrl = "http://localhost/globalacademy/";
 	
 	mysqli_set_charset($link, 'utf8');
-	
+	//http://localhost:3000/globalacademy $defaultUrl = "http://localhost/globalacademy/";
 ?>

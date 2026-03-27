@@ -468,7 +468,7 @@
                                                                         $datetime1_fri = DateTime::createFromFormat('H:i', $start_time_fri);
                                                                         $datetime2_fri = DateTime::createFromFormat('H:i', $end_time_fri);
 
-                                                                        $interval_fri = $datetime1_thur->diff($datetime2_fri);
+                                                                        $interval_fri = $datetime1_fri->diff($datetime2_fri);
 
                                                                         echo '<div class="col-lg-4 col-md-6 mb-2">
                                                                             <div class="card shadow">
