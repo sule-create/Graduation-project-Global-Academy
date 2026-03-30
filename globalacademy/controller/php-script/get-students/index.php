@@ -4,12 +4,12 @@
 
     $email = mysqli_real_escape_string($link, $_POST['email']);
     $usertype = $_POST['usertype'];
+    $instructor_userid = isset($_POST['userid']) ? $_POST['userid'] : '';
 
 
     if($usertype == 'instructor')
     {
-        $instructor_userid = $_POST['userid'];
-
+//$instructor_userid = $_POST['userid'];
         $sqlGet_course_tbl_instruc = "SELECT DISTINCT course_id FROM `users_tbl` INNER JOIN `assign_course_tbl` ON users_tbl.sn=assign_course_tbl.user_id WHERE email = '$email'";
         $result_course_tbl_instruc = mysqli_query($link, $sqlGet_course_tbl_instruc);
         $row_course_tbl_instruc = mysqli_fetch_assoc($result_course_tbl_instruc);
